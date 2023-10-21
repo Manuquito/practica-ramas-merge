@@ -11,9 +11,9 @@ function agregarALaPantalla(value) {
   function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
   }
-  
   function deshacer()
   {
-    const  valorPantalla = document.getElementById('pantalla').value;
-    document.getElementById('pantalla').value = valorPantalla.slice(0,-1);
+    const value = document.getElementById("pantalla").value;
+    const result = value.substring(0, value.length-1);
+    document.getElementById("pantalla").value = result;
   }
