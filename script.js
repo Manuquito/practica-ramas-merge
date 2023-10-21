@@ -11,4 +11,3 @@ function agregarALaPantalla(value) {
   function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
   }
-
